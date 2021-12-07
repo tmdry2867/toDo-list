@@ -1,0 +1,68 @@
+.hidden {
+    display: none;
+}
+#login-form, #quote, #weather, #clock, #todo-form, #greeting{
+    text-align : center;
+}
+#todospan{
+    font: message-box;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: grey;
+}
+#todo-form input{
+    background-color: beige;
+    width: 400px;
+    height: 20px;
+
+}
+#login-form{
+    margin-top: 50px;
+}
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn .5s linear;
+}
+#todo-list{
+    list-style-position: inside;
+}
+button{
+    border-style: none;
+    background-color: white;
+    list-style-type: decimal;
+}
+#quote{
+    vertical-align: bottom;
+}
+#quote-span{
+    font-size: 10px;
+    color: beige
+}
+#name-span{
+    color : aqua;
+}
+h2{
+    color: pink;
+}
+#login-form input{
+    background-color: snow;
+    width: 100px;
+}
+#todo-list{
+    text-align-last: left;
+    border-width: 2000px;
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 20px;
+    color:salmon;
+    animation: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
